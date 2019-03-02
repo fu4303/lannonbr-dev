@@ -620,3 +620,12 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+html {
+  font-size: 20px;
+}
