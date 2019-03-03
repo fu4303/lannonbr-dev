@@ -2,6 +2,8 @@
 title: Curated Tech / Dev Podcasts
 ---
 
+![Podcast photo](../images/podcast.svg)
+
 This is a list of podcasts that I listen to on a weekly basis.
 
 - [The Changelog](https://changelog.com/podcast): Podcast on discussing to Open Source community leaders / members
