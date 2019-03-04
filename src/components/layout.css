@@ -629,3 +629,13 @@ a {
 html {
   font-size: 20px;
 }
+
+.splitBox {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .splitBox {
+    display: block;
+  }
+}
