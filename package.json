@@ -25,6 +25,8 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "lifx-http-api": "^1.0.3",
+    "netlify-lambda": "^1.4.2",
     "prettier": "^1.16.4"
   },
   "keywords": [
