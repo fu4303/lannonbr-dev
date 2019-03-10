@@ -42,7 +42,7 @@ const IndexPage = ({ data }) => (
 
 export const PageQuery = graphql`
   query {
-    allMdx {
+    allMdx(sort: { fields: frontmatter___title }) {
       edges {
         node {
           fields {
