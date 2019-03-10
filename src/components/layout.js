@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import githubLogo from "../images/github.svg"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -35,10 +36,27 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()} Benjamin Lannon, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <footer
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+            }}
+          >
+            <span>
+              © {new Date().getFullYear()} Benjamin Lannon, Built with
+              {` `}
+              <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </span>
+            <span>
+              <img
+                src={githubLogo}
+                alt="GitHub logo"
+                style={{ marginBottom: 0 }}
+              />{" "}
+              <a href="https://github.com/lannonbr/lannonbr.dev">
+                Source on GitHub
+              </a>
+            </span>
           </footer>
         </div>
       </>
