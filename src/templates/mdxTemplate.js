@@ -4,23 +4,28 @@ import { MDXRenderer } from "gatsby-mdx"
 import SEO from "../components/seo"
 import EditSVG from "../images/edit.svg"
 
+const EditLink = ({ fileName }) => (
+  <p style={{ display: "flex", justifyContent: "flex-end" }}>
+    <a
+      href={`https://github.com/lannonbr/lannonbr.dev/blob/master/src/content/${fileName}`}
+      style={{ display: "inline-flex", fontSize: 16 }}
+    >
+      <img src={EditSVG} alt="Edit SVG" />
+      Edit this page on GitHub
+    </a>
+  </p>
+)
+
 const MDXTemplate = ({ data }) => {
   let fileName = data.mdx.fileAbsolutePath.split("/").pop()
+  let title = data.mdx.frontmatter.title
 
   return (
     <>
-      <SEO title={data.mdx.frontmatter.title} />
-      <h1>{data.mdx.frontmatter.title}</h1>
+      <SEO title={title} />
+      <h1>{title}</h1>
       <MDXRenderer>{data.mdx.code.body}</MDXRenderer>
-      <p style={{ display: "flex", justifyContent: "flex-end" }}>
-        <a
-          href={`https://github.com/lannonbr/lannonbr.dev/blob/master/src/content/${fileName}`}
-          style={{ display: "inline-flex", fontSize: 16 }}
-        >
-          <img src={EditSVG} alt="Edit SVG" />
-          Edit this page on GitHub
-        </a>
-      </p>
+      <EditLink fileName={fileName} />
     </>
   )
 }
