@@ -1,29 +1,27 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "lannonbr.dev",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A page for curated resources that I would recommend",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Benjamin Lannon <benjamin@lannonbr.com>",
   "dependencies": {
-    "@mdx-js/mdx": "^0.20.0",
-    "@mdx-js/tag": "^0.18.0",
-    "gatsby": "^2.1.19",
-    "gatsby-image": "^2.0.30",
-    "gatsby-mdx": "^0.4.0",
-    "gatsby-plugin-manifest": "^2.0.20",
-    "gatsby-plugin-offline": "^2.0.24",
-    "gatsby-plugin-react-helmet": "^3.0.7",
-    "gatsby-plugin-sharp": "^2.0.23",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-remark-copy-linked-files": "^2.0.9",
-    "gatsby-remark-images": "^3.0.5",
-    "gatsby-source-filesystem": "^2.0.23",
+    "@mdx-js/mdx": "^0.20.3",
+    "@mdx-js/tag": "^0.20.3",
+    "gatsby": "^2.2.9",
+    "gatsby-image": "^2.0.34",
+    "gatsby-mdx": "^0.4.4",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-remark-copy-linked-files": "^2.0.11",
+    "gatsby-remark-images": "^3.0.10",
+    "gatsby-source-filesystem": "^2.0.28",
     "gatsby-theme-lannonbr": "^1.0.4",
-    "gatsby-transformer-sharp": "^2.1.15",
+    "gatsby-transformer-sharp": "^2.1.17",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
@@ -45,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/lannonbr/lannonbr.dev"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/lannonbr/lannonbr.dev/issues"
   }
 }
