@@ -1,5 +1,6 @@
 ---
 title: VS Live Share
+date: "2019-03-11"
 ---
 
 [![VS Live Share](../images/liveshare.png)](https://visualstudio.microsoft.com/services/live-share/)

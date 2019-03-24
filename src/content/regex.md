@@ -1,5 +1,6 @@
 ---
 title: Regular Expressions
+date: "2019-03-03"
 ---
 
 Parsing through sets of data can be a good use case for regular expressions, but a lot of people have stated that the syntax can get convoluted and confusing. The main resource I use when writing regular expressions is [Regex101](https://regex101.com/)

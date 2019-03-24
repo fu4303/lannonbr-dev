@@ -1,5 +1,6 @@
 ---
 title: C3.js
+date: "2019-03-11"
 ---
 
 For graphing out datasets that only need a basic graph, I tend to use [C3.js](https://c3js.org). It is based upon D3 but without the hassle of putting all of the SVGs together.

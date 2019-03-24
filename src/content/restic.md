@@ -1,5 +1,6 @@
 ---
 title: Restic backup software
+date: "2019-03-11"
 ---
 
 For backups of my computers, I use a piece of software called [Restic](https://restic.net/). It is a efficient and secure method that I can backup my data to various platforms including local hard drives or to the cloud. The backups are fully encrypted and only store diffs between backups so rather than storing gigabytes of data every time I send a backup, it will only upload the diff for a directory since I last ran a backup.

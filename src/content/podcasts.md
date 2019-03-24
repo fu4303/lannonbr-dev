@@ -1,5 +1,6 @@
 ---
 title: Curated Tech / Dev Podcasts
+date: "2019-03-02"
 ---
 
 ![Podcast photo](../images/podcast.svg)
