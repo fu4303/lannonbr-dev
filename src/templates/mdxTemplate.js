@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-mdx"
+import moment from "moment"
 import SEO from "../components/seo"
 import EditSVG from "../images/edit.svg"
 
@@ -24,6 +25,9 @@ const MDXTemplate = ({ data }) => {
     <>
       <SEO title={title} />
       <h1>{title}</h1>
+      <h2 style={{ fontSize: 16 }}>
+        Posted: {moment(data.mdx.frontmatter.date).format("ll")}
+      </h2>
       <MDXRenderer>{data.mdx.code.body}</MDXRenderer>
       <EditLink fileName={fileName} />
     </>
@@ -39,6 +43,7 @@ export const PageQuery = graphql`
       fileAbsolutePath
       frontmatter {
         title
+        date
       }
     }
   }
