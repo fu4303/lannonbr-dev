@@ -11,7 +11,6 @@ This is a list of podcasts that I listen to on a weekly basis.
 - [Developer Tea](https://spec.fm/podcasts/developer-tea) [Mon / Wed / Fri]: Short snippets of mainly soft skills to level up your skills as a developer
 - [FreeCodeCamp Podcast](https://freecodecamp.libsyn.com/) [Mon]: Weekly interviews mainly of people who entered the Development industry in interesting ways
 - [FullStackRadio](http://www.fullstackradio.com/): Dev/Design podcast hosted by Adam Wathan
-- [Javascript Jabber](https://devchat.tv/js-jabber/) [Tue]: Weekly JS podcast as part of Devchat.tv network
 - [JS Party](https://changelog.com/jsparty) [Live Thursdays]: Weekly Javascript podcast
 - [Layout](https://layout.fm/) [Thurs]: Dev / Design podcast as part of Spec network
 - [React Podcast](https://reactpodcast.simplecast.fm/) [Thurs]: React Podcast hosted by Chantastic
