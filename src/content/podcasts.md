@@ -17,5 +17,4 @@ This is a list of podcasts that I listen to on a weekly basis.
 - [Real Talk Javascript](https://realtalkjavascript.simplecast.fm/) [Tue]: Show by John Papa and Co. interviewing people about real world problems and solutions using HTML, CSS and Javascript.
 - [Syntax](https://syntax.fm/) [Mon / Wed]: Web Development podcast by Wes Bos and Scott Tolinski
 - [Toolsday](https://spec.fm/podcasts/toolsday) [Every other Tuesday]: Podcast on tools in the web dev field
-- [The Undefined Podcast](https://undefined.fm/): A more laid back web dev podcast hosted by Jared Palmer and Ken Wheeler (Warning: Mature Content)
 - [The Vergecast](https://www.theverge.com/the-vergecast) [Fri]: Weekly tech podcasts hosted by The Verge
